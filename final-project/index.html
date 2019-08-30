@@ -1,58 +1,342 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    </script>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Anabul</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="vendors/animate-css/animate.css">
+	<!-- main css -->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="https://res.cloudinary.com/sagacity/image/upload/c_crop,h_1001,w_1500,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/Kitten_murder_Jeff_Merkley_2_copy_hdpoxd.jpg"
-                    alt="Los Angeles">
-            </div>
+	<!--================Header Menu Area =================-->
+	<header class="header_area">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container box_1620">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+					<ul class="nav navbar-nav menu_nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
 
-            <div class="item">
-                <img src="https://valevets.com/wp-content/uploads/2014/08/kitten1.jpg" alt="Chicago">
-            </div>
+						<li class="nav-item submenu dropdown">
+							<ul class="dropdown-menu">
+								<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+							</ul>
+						</li>
 
-            <div class="item">
-                <img src="https://res.cloudinary.com/sagacity/image/upload/c_crop,h_1001,w_1500,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/Kitten_murder_Jeff_Merkley_2_copy_hdpoxd.jpg"
-                    alt="New York">
-            </div>
-        </div>
 
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="nav-item"><a href="#" class="search"><i class="lnr lnr-magnifier"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!--================Header Menu Area =================-->
 
-    <button class="btn btn-primary"></button>
+	<!--================Home Banner Area =================-->
+	<section class="home_banner_area">
+		<div class="banner_inner d-flex align-items-center">
+			<!-- <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div> -->
+			<div class="carousel fade-carousel slide carousel-fade overlay bg-parallax" data-ride="carousel"
+				data-interval="5000" id="bs-carousel" data-stellar-ratio="0.9" data-stellar-vertical-offset="0"
+				data-background="">
+				<!-- Overlay -->
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#bs-carousel" data-slide-to="1"></li>
+					<li data-target="#bs-carousel" data-slide-to="2"></li>
+				</ol>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item slides active carousel-item">
+						<div class="slide-1">
+							<div class="overlay1"></div>
+						</div>
+					</div>
+					<div class="item slides carousel-item">
+						<div class="slide-2">
+							<div class="overlay1"></div>
+						</div>
+					</div>
+					<div class="item slides carousel-item">
+						<div class="slide-3">
+							<div class="overlay1"></div>
+						</div>
+					</div>
 
+				</div>
+			</div>
+			<div class="container">
+				<div class="banner_content text-center">
+					<h2>Cat Image Collection</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in quaerat ad! Rem laudantium
+						dolorum tempora perferendis! Omnis cum quidem doloremque odit quos vero accusantium dolore non
+						temporibus laudantium? Nesciunt!.</p>
+					<a href="#" class="btn theme_btn">Explore Gallery</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Home Banner Area =================-->
+
+	<!--================Home Gallery Area =================-->
+	<section class="home_gallery_area p_120">
+		<div class="container">
+			<div class="isotope_fillter">
+				<ul class="gallery_filter list">
+					<li class="active" data-filter="*"><a href="#">All</a></li>
+					<li data-filter=".ap"><a href="#">Approved</a></li>
+					<li data-filter=".unp"><a href="#">Unapproved</a></li>
+					<li data-filter=".unv"><a href="#">Unviewed</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="container box_1620">
+			<div class="gallery_f_inner row imageGallery1">
+				<div class="col-lg-3 col-md-4 col-sm-6 ap">
+					<div class="h_gallery_item">
+						<img src="img/gallery/gallery-1.jpg" alt="">
+						<div class="hover">
+							<a href="#">
+								<h4>Spreading Peace to world</h4>
+							</a>
+							<a class="light" href="img/gallery/gallery-1.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 unv">
+					<div class="h_gallery_item">
+						<img src="img/gallery/gallery-2.jpg" alt="">
+						<div class="hover">
+							<a href="#">
+								<h4>Spreading Peace to world</h4>
+							</a>
+							<a class="light" href="img/gallery/gallery-2.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 unp ap">
+					<div class="h_gallery_item">
+						<img src="img/gallery/gallery-3.jpg" alt="">
+						<div class="hover">
+							<a href="#">
+								<h4>Spreading Peace to world</h4>
+							</a>
+							<a class="light" href="img/gallery/gallery-3.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 unp">
+					<div class="h_gallery_item">
+						<img src="img/gallery/gallery-4.jpg" alt="">
+						<div class="hover">
+							<a href="#">
+								<h4>Spreading Peace to world</h4>
+							</a>
+							<a class="light" href="img/gallery/gallery-4.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 unv">
+					<div class="h_gallery_item">
+						<img src="img/gallery/gallery-5.jpg" alt="">
+						<div class="hover">
+							<a href="#">
+								<h4>Spreading Peace to world</h4>
+							</a>
+							<a class="light" href="img/gallery/gallery-5.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 ap">
+					<div class="h_gallery_item">
+						<img src="img/gallery/gallery-6.jpg" alt="">
+						<div class="hover">
+							<a href="#">
+								<h4>Spreading Peace to world</h4>
+							</a>
+							<a class="light" href="img/gallery/gallery-6.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 unp">
+					<div class="h_gallery_item">
+						<img src="img/gallery/gallery-7.jpg" alt="">
+						<div class="hover">
+							<a href="#">
+								<h4>Spreading Peace to world</h4>
+							</a>
+							<a class="light" href="img/gallery/gallery-7.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 unp">
+					<div class="h_gallery_item">
+						<img src="img/gallery/gallery-8.jpg" alt="">
+						<div class="hover">
+							<a href="#">
+								<h4>Spreading Peace to world</h4>
+							</a>
+							<a class="light" href="img/gallery/gallery-8.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 unv">
+					<div class="h_gallery_item">
+						<img src="img/gallery/gallery-9.jpg" alt="">
+						<div class="hover">
+							<a href="#">
+								<h4>Spreading Peace to world</h4>
+							</a>
+							<a class="light" href="img/gallery/gallery-9.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 unp">
+					<div class="h_gallery_item">
+						<img src="img/gallery/gallery-10.jpg" alt="">
+						<div class="hover">
+							<a href="#">
+								<h4>Spreading Peace to world</h4>
+							</a>
+							<a class="light" href="img/gallery/gallery-10.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 ap">
+					<div class="h_gallery_item">
+						<img src="img/gallery/gallery-11.jpg" alt="">
+						<div class="hover">
+							<a href="#">
+								<h4>Spreading Peace to world</h4>
+							</a>
+							<a class="light" href="img/gallery/gallery-11.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 unv">
+					<div class="h_gallery_item">
+						<img src="img/gallery/gallery-12.jpg" alt="">
+						<div class="hover">
+							<a href="#">
+								<h4>Spreading Peace to world</h4>
+							</a>
+							<a class="light" href="img/gallery/gallery-12.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="button_more">
+				<a class="btn theme_btn" href="#">Load More Images</a>
+			</div>
+		</div>
+	</section>
+	<!--================End Home Gallery Area =================-->
+
+
+
+
+	<!--================Footer Area =================-->
+	<footer class="footer_area p_120">
+		<div class="container">
+			<div class="row footer_inner">
+				<div class="col-lg-5 col-sm-6">
+					<aside class="f_widget ab_widget">
+						<div class="f_title">
+							<h3>About Me</h3>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore dolore </p>
+
+					</aside>
+				</div>
+				<div class="col-lg-5 col-sm-6">
+					<aside class="f_widget news_widget">
+						<div class="f_title">
+							<h3>Newsletter</h3>
+						</div>
+						<p>Stay updated with our latest trends</p>
+						<div id="mc_embed_signup">
+							<form target="_blank" action="https://formspree.io/YOUREMAILHERE" method="get"
+								class="subscribe_form relative">
+								<div class="input-group d-flex flex-row">
+									<input type="email" name="email" placeholder="Enter email address"
+										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '"
+										required="" type="email">
+									<input name="message" type="text" placeholder="Enter Message">
+									<!-- <textarea name="message" placeholder="Test Message"></textarea> -->
+									<button class="btn sub-btn" type="submit"><span
+											class="lnr lnr-arrow-right"></span></button>
+								</div>
+								<div class="mt-10 info"></div>
+							</form>
+						</div>
+					</aside>
+				</div>
+				<div class="col-lg-2">
+					<aside class="f_widget social_widget">
+						<div class="f_title">
+							<h3>Follow Me</h3>
+						</div>
+						<p>Let us be social</p>
+						<ul class="list">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-github"></i></a></li>
+							<li><a href="#"><i class="fa fa-behance"></i></a></li>
+						</ul>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--================End Footer Area =================-->
+
+
+
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="vendors/lightbox/simpleLightbox.min.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/theme.js"></script>
 </body>
 
 </html>
